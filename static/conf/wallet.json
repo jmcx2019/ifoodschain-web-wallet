@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "wallet",
+  "phash": "c32e9f0ff69c36daa10b4411eeb42af304a654417035192959773463c27529ad",
+  "iv": "d3721801b37b1eee4f1aeb4add0d7e4c",
+  "mkey": "edc7676adc4bf79f29e1f50f6481ffc3e47ad52409fe6754d3e174ef23c0bc54",
+  "Account": [
+    {
+      "address": "FBnbY1o8B73hMDeW5ry8t8d3cxAbDVn8jj",
+      "pkey": "a7adb83bab45bf71546007ee69030771aa7edc5b5798d469bee9c6d0fed3bb5a",
+      "contract": "f07acf96388ccbb9ca5f22625bd5f5ccd57ed2e90100232103269b1f1dbbf2da60e09ec4134741f2eb1eaa887bf6d1df0d6bea3181036b2593ac",
+      "default": true
+    }
+  ]
+}

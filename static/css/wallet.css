@@ -1,0 +1,230 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.nav {
+    text-transform: none;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: #ECF0F1;
+    overflow: hidden;
+}
+
+.page-header {
+    margin: 0;
+    border-bottom: 0;
+}
+
+.navbar-right a,
+.navbar-header a {
+    height: 65px;
+    line-height: 65px;
+}
+.dropdown-menu a {
+    height: 30px;
+}
+.navbar-nav > li > a {
+    padding-top: 20px;
+}
+
+/* start: modal-dialog水平垂直居中 */
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+}
+.modal-dialog {
+    position: absolute;
+    width: auto;
+    margin: 10px auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+}
+@media (min-width:768px) {
+    .modal-dialog {
+        width: 600px;
+    }
+}
+/* end: modal-dialog水平垂直居中 */
+
+.navbar-default .nav>li>a {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.glyphicon {
+    margin-right: 1em;
+}
+
+.alert.popup {
+    position: fixed;
+    border-radius: 0;
+    margin: 0
+}
+
+.alert.popup a {
+    text-decoration: underline;
+}
+
+span {
+    word-wrap: break-word;
+}
+
+.row-open-wallet {
+    margin-top: 5%;
+}
+
+.show-password {
+    -webkit-text-security: disc;
+}
+
+.btn-address .caretico {
+    margin-left: 1em;
+}
+
+.btn-address button, .btn-address ul li a {
+    text-transform: none;
+}
+
+.modal-dialog {
+    width: 720px;
+}
+
+/* hash calc */
+#dropTarget {
+    width: 100%;
+    height: 200px;
+    background: #ccc;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 200px;
+}
+
+.modal-title-warning {
+    color: #ff0000;
+}
+
+.alert a,
+.alert p {
+    color: #fff;
+}
+
+#mainTab {
+    font-size: 18px;
+}
+
+#moreSetting {
+    font-size: 16px;
+}
+
+/* pop */
+#pop {
+    background: #fff;
+    width: 260px;
+    border: 1px solid #e0e0e0;
+    font-size: 12px;
+    position: fixed;
+    right: 10px;
+    bottom: 55px;
+}
+
+#popHead {
+    line-height: 32px;
+    background: #2C3E50;
+    border-bottom: 1px solid #374752;
+    position: relative;
+    font-size: 12px;
+    padding: 0 0 0 10px;
+}
+
+#popHead h2 {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 32px;
+    height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+#popHead #popClose {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    color: #ffffff;
+}
+
+#popHead a#popClose:hover {
+    color: #3498DB;
+    cursor: pointer;
+}
+
+#popContent {
+    padding: 5px 10px;
+}
+
+#popTitle a {
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#popTitle a:hover {
+    color: #3498DB;
+}
+
+#popIntro {
+    text-indent: 24px;
+    line-height: 160%;
+    margin: 5px 0;
+    color: #666;
+}
+
+#popMore {
+    text-align: right;
+    border-top: 1px dotted #ccc;
+    line-height: 24px;
+    margin: 8px 0 0 0;
+}
+
+#popMore a {
+    color: #3498DB;
+}
+
+#popMore a:hover {
+    color: #3498DB;
+}
+
+html,body,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+input, button, select, textarea {
+    font-family: Verdana, "Microsoft YaHei", 微软雅黑, sans-serif;
+    /*font-family: Roboto,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;*/
+}
+
+/* IFood-chain 定制*/
+.btn-info {
+    color: white;
+    background-color: #f7b62a;
+    border-color: #f7b62a;
+}
+.btn-info {
+    background-image: -webkit-linear-gradient(#F7CB58, #f7b62a 60%, #F7B50B);
+    background-image: -o-linear-gradient(#F7CB58, #f7b62a 60%, #F7B50B);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F7CB58), color-stop(60%, #f7b62a), to(#F7B50B));
+    background-image: linear-gradient(#F7CB58, #f7b62a 60%, #F7B50B);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff04519b', endColorstr='#ff02325f', GradientType=0);
+    -webkit-filter: none;
+    filter: none;
+    border-bottom: 1px solid #F7AD06;
+}

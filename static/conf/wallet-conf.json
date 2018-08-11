@@ -1,0 +1,86 @@
+{
+  "project_name": "ifood",
+  "version": "v1.0 Beta",
+  "desktop_version": "v1.0",
+  "date": "2018-01-08 14:00",
+  "domain": "http://47.94.207.144",
+  "bbs_url": "",
+  "explorer_url": "",
+  "explorer_search_path": "tx/",
+  "api_url": {
+    "high_chart_data": "",
+    "transaction_record": "",
+    "notice": "",
+    "help": ""
+  },
+  "host_info": [
+    [
+      {
+        "hostName": "IFood-Chain-01",
+        "hostProvider": "IFoodChain",
+        "restapi_host": "http://39.106.215.190",
+        "restapi_port": "20334",
+        "webapi_host": "http://39.106.215.190",
+        "webapi_port": "20336",
+        "node_type": "D"
+      },
+      {
+        "hostName": "IFood-Chain-02",
+        "hostProvider": "IFoodChain",
+        "restapi_host": "http://39.106.220.173",
+        "restapi_port": "20334",
+        "webapi_host": "http://39.106.220.173",
+        "webapi_port": "20336",
+        "node_type": "D"
+      },
+      {
+        "hostName": "IFood-Chain-03",
+        "hostProvider": "IFoodChain",
+        "restapi_host": "http://39.106.221.244",
+        "restapi_port": "20334",
+        "webapi_host": "http://39.106.221.244",
+        "webapi_port": "20336",
+        "node_type": "D"
+      },
+      {
+        "hostName": "IFood-Chain-04",
+        "hostProvider": "IFoodChain",
+        "restapi_host": "http://39.106.219.38",
+        "restapi_port": "20334",
+        "webapi_host": "http://39.106.219.38",
+        "webapi_port": "20336",
+        "node_type": "D"
+      }
+    ]
+  ],
+  "tx_types": [
+    [
+      {
+        "name": "资产转账",
+        "id": "128"
+      },
+      {
+        "name": "发行资产",
+        "id": "1"
+      },
+      {
+        "name": "注册资产",
+        "id": "64"
+      }
+    ],
+    [
+      {
+        "name": "Transfer Asset",
+        "id": "128"
+      },
+      {
+        "name": "Issue Asset",
+        "id": "1"
+      },
+      {
+        "name": "Register Asset",
+        "id": "64"
+      }
+    ]
+  ]
+}
